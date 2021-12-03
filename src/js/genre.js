@@ -1,12 +1,13 @@
-import { genreMovies } from './fetchMoviesAPI';
+import MovieService from './getFetch';
 import getRefs from './get-refs';
 import itemList from '../templates/btnGenre.hbs';
 
+const API = new MovieService();
 const refs = getRefs();
 
 (async function renderMenuGenre() {
   try {
-    const genre = await genreMovies();
+    const genre = await API.genreMovies();
     await renderGenreList(genre);
   } catch (error) {
     console.log(error);
