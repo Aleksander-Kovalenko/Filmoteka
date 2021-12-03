@@ -3,14 +3,14 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://sasha87972.github.io/goit-js-tp-filmoteka",
+  "homepage": "https://aleksander-kovalenko.github.io/Filmoteka/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-tp-filmoteka/"
+    "build": "parcel build src/*.html --public-url /Filmoteka/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sasha87972/goit-js-tp-filmoteka.git"
+    "url": "git+https://github.com/Aleksander-Kovalenko/Filmoteka.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
